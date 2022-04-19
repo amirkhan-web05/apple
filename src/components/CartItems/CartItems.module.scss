@@ -1,0 +1,182 @@
+.card {
+  cursor: pointer;
+  width: 370px;
+  margin: 10px 10px;
+  background-color: #fff;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-between;
+  overflow: hidden;
+  // position: relative;
+  white-space: normal;
+  box-shadow: 0px 0px 9px -3px rgba(34, 60, 80, 0.34);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+
+  &__info {
+    padding: 30px 30px;
+  }
+
+  &__new {
+    color: #bf4800;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    min-width: 28px;
+    padding: 8px 16px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    border: none;
+  }
+}
+
+.popup {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+  position: fixed;
+  overflow: auto;
+  align-items: flex-start;
+  padding: 54px 0;
+
+  &__name {
+    color: #000;
+  }
+
+  &__add {
+    background-color: #0071e3;
+    border: none;
+    color: #fff;
+    padding: 4px 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__btn {
+    font-weight: 600;
+    background: #f5f5f7;
+    border-radius: 980px;
+    cursor: default;
+    border: none;
+    padding: 8px 24px;
+    margin: 2px 3px 4px;
+  }
+
+  &__trans {
+    font-weight: 600;
+    background: transparent;
+    border-radius: 980px;
+    cursor: default;
+    border: none;
+    padding: 8px 24px;
+    margin: 2px 3px 4px;
+  }
+
+  &__inner {
+    position: relative;
+    width: 980px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  &__row {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+
+    &-text {
+      font-size: 17px;
+      line-height: 1.23536;
+      font-weight: 400;
+      letter-spacing: -0.022em;
+      font-weight: 600;
+      padding: 15px 0;
+    }
+  }
+
+  &__table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__block {
+    max-width: 420px;
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    background-color: rgba(50, 50, 50, 0.88);
+    border-radius: 30px;
+  }
+
+  &__item {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-weight: 600;
+    margin: 0;
+    padding: 14px 22px;
+    color: #86868b;
+    border-radius: 30px;
+
+    &:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  &__active {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    background-color: #fff;
+    cursor: pointer;
+    letter-spacing: -0.016em;
+    font-weight: 600;
+    margin: 0;
+    padding: 14px 22px;
+    color: #86868b;
+    border-radius: 30px;
+  }
+
+  &__close {
+    display: flex;
+    align-items: center;
+    margin-left: 265px;
+    justify-content: center;
+    background-color: #e8e8ed;
+    border-radius: 50%;
+    border: none;
+    width: 36px;
+    height: 36px;
+    color: #6e6e73;
+    font-size: 25px;
+  }
+}

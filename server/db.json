@@ -1,0 +1,182 @@
+{
+  "mac": [
+    {
+      "id": 1,
+      "name": "MacBook Air",
+      "images": "",
+      "price": 999
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro 13",
+      "images": "",
+      "price": 1299
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro 14",
+      "images": "",
+      "price": 1999
+    }
+  ],
+  "iPhone": [
+    {
+      "id": 1,
+      "cartId": [
+        1,
+        2
+      ],
+      "name": "iPhone 13 Pro",
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13pro-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1644989935267",
+      "price": 999,
+      "table": 0,
+      "category": "iPhone 13 Pro",
+      "count": 1,
+      "photo":[
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13pro-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574660350",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574659956"
+      ],
+      "sliderPhoto": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13pro-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1645574659990",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13pro-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988094612",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13pro-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1645574660265",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13pro-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1645574658502",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13pro-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988094572"
+      ],
+      "sliderPhotoMax": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1645574659451",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988277330",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1645574660694",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1645574657881",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988277237"
+      ],
+      
+      "btnItems": [
+        "iPhone 13 Pro",
+        "iPhone 13 Pro Max"
+      ]
+    },
+    {
+      "id": 2,
+      "cartId": [
+        3,
+        4
+      ],
+      "name": "iPhone 13",
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646335268199",
+      "price": 699,
+      "table": 1,
+      "count": 1,
+      "category": "iPhone 13 Pro",
+      "photo": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574659599",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13mini-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574660128"
+      ],
+      "sliderPhoto": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574659599",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13mini-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574660128"
+      ],
+      "btnItems": [
+        "iPhone 13",
+        "iPhone 13 mini"
+      ]
+    },
+    {
+      "id": 3,
+      "cartId": [
+        5,
+        6
+      ],
+      "name": "iPhone SE",
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphonese-202203?wid=340&hei=264&fmt=jpeg&qlt=95&.v=1646415838921",
+      "price": 429,
+      "table": 2,
+      "category": "iPhone SE",
+      "count": 1,
+      "photo": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579596"
+      ],
+      "sliderPhoto": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579596"
+      ]
+    },
+    {
+      "id": 4,
+      "cartId": [
+        7,
+        8
+      ],
+      "name": "iPhone 12",
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646335268199",
+      "price": 599,
+      "table": 3,
+      "count": 1,
+      "category": "iPhone 12",
+      "photo": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1635980933000",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone12mini-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178694000"
+      ],
+      "sliderPhoto": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone12-digitalmat-gallery-1-202111_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1635980933000",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone12mini-digitalmat-gallery-1-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178694000"
+      ],
+      "btnItems": [
+        "iPhone 12",
+        "iPhone 12 mini"
+      ]
+    },
+    {
+      "id": 5,
+      "cartId": [
+        5,
+        6
+      ],
+      "name": "iPhone 11",
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1646335268199",
+      "price": 499,
+      "table": 4,
+      "count": 1,
+      "category": "iPhone 11",
+      "photo": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574659599",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13mini-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574660128"
+      ],
+      "sliderPhoto": [
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574659599",
+        "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13mini-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574660128"
+      ]
+    }
+  ],
+  "iPad": [
+    {
+      "id": 1,
+      "name": "iPad Pro",
+      "images": "",
+      "price": 799
+    },
+    {
+      "id": 2,
+      "name": "iPad Air",
+      "images": "",
+      "price": 599
+    },
+    {
+      "id": 3,
+      "name": "iPad",
+      "images": "",
+      "price": 329
+    }
+  ],
+  "AppleWatch": [],
+  "cart": [
+    {
+      "id": 1,
+      "name": "iPhone 13 Pro",
+      "price": 999,
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13pro-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1644989935267",
+      "table": 0,
+      "count": 0
+    }
+  ],
+  "auth": []
+}

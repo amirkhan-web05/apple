@@ -1,0 +1,17 @@
+.home {
+  width: 100%;
+  height: 600px;
+  background-image: url('https://www.apple.com/v/iphone-13-pro/f/images/overview/hero/hero_endframe__3tq53uan9teq_xlarge.jpg');
+  background-repeat: no-repeat;
+  background-position: center top 34%;
+
+  &__title {
+    font-size: 56px;
+  }
+
+  &__link {
+    margin: 0 15px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+}

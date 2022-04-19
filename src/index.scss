@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.slick-slider {
+  width: 370px;
+  cursor: pointer;
+}
+
+.slick-dots li {
+  margin: 0 -2px !important;
+}
+
+.slick-next::before, .slick-prev::before {
+  color: rgba(134,134,139,.8) !important;
+  font-size: 23px !important;
+}

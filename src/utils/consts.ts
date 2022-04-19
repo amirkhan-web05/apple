@@ -1,0 +1,6 @@
+export const FAVORITE_WAY = '/favorite'
+export const PUBLIC_WAY = '/'
+export const STORE_WAY = '/store'
+export const REGISTER_WAY = '/register'
+export const DETAILS_WAY = '/details'
+export const NOT_FOUND_WAY = '*'
