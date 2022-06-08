@@ -8,8 +8,12 @@ const initialState:TypeCartList = {
 
 type TypeInitialState = typeof initialState
 
-export const cart = (state:TypeInitialState = initialState, action:ActionTypes) => {
+export const cart = (state:TypeInitialState = initialState, action:ActionTypes):TypeInitialState => {
   switch (action.type) {
+    case Types.APP_CART: {
+      return {...state, cart:action.cart}
+    }
+    
     case Types.APP_ADD_TO_CART: {
       const {id}:any = action.cart
       const findItems:TypeCartItems | undefined = state.cart.find((item:TypeCartItems) => item.id === id)
@@ -19,7 +23,7 @@ export const cart = (state:TypeInitialState = initialState, action:ActionTypes) 
       } else {
         return {
           ...state,
-          cart:[...state.cart, ...action.cart]
+          cart:[...state.cart, action.cart]
         }
       }
 
@@ -36,27 +40,27 @@ export const cart = (state:TypeInitialState = initialState, action:ActionTypes) 
     case Types.APP_PLUS_CART: {
       return {
         ...state,
-        plus:state.cart.map((item:any) => {
+        cart:state.cart.map((item) => {
           if (item.id === action.id) {
             item.count += 1 
           }
 
           return item
         }),
-        cart:[...state.cart]
+        // cart:[...state.cart]
       }
     }
 
     case Types.APP_MINUS_CART: {
       return {
         ...state,
-        minus:state.cart.map((item:any) => {
+        cart:state.cart.map((item) => {
           if (item.id === action.id) {
             item.count === 1 ? item.count = 1 : item.count -= 1  
           }
           return item
         }),
-        cart:[...state.cart]
+        // cart:[...state.cart]
       }
     }
 

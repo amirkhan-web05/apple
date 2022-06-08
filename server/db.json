@@ -32,7 +32,7 @@
       "table": 0,
       "category": "iPhone 13 Pro",
       "count": 1,
-      "photo":[
+      "photo": [
         "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13pro-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574660350",
         "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1645574659956"
       ],
@@ -50,7 +50,6 @@
         "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-5-202203?wid=364&hei=333&fmt=png-alpha&.v=1645574657881",
         "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13promax-digitalmat-gallery-6-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988277237"
       ],
-      
       "btnItems": [
         "iPhone 13 Pro",
         "iPhone 13 Pro Max"
@@ -168,15 +167,6 @@
     }
   ],
   "AppleWatch": [],
-  "cart": [
-    {
-      "id": 1,
-      "name": "iPhone 13 Pro",
-      "price": 999,
-      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13pro-202203?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1644989935267",
-      "table": 0,
-      "count": 0
-    }
-  ],
+  "cart": [],
   "auth": []
 }

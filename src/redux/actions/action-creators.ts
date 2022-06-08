@@ -1,11 +1,12 @@
-import { TypeAuth, TypeAuthUser } from './../../types/index';
+import { TypeAuthUser } from './../../types/index';
 import { TypeSortList } from './sortBy';
 import { Types } from './../types/index';
 import { TypeCartItems } from "../../types"
 
 export const actions = {
-  addToCart: (cart:TypeCartItems[]) => ({type:Types.APP_ADD_TO_CART, cart} as const),
+  addToCart: (cart:TypeCartItems) => ({type:Types.APP_ADD_TO_CART, cart} as const),
   removeCart: (id:number) => ({type:Types.APP_REMOVE, id} as const),
+  setCart:(cart:TypeCartItems[]) => ({type:Types.APP_CART, cart} as const),
   plusCart: (id:number, count:number) => ({type:Types.APP_PLUS_CART, id, count} as const),
   minusCart: (id:number, count:number) => ({type:Types.APP_MINUS_CART, id, count} as const),
   setItems:(items:TypeCartItems[]) => ({type:Types.APP_IPHONE, items} as const),

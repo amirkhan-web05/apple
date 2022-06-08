@@ -10,7 +10,7 @@ import { TypeSortList } from './sortBy';
 
 export const fetchCartItems = ():ThunkType => async (dispatch) => {
   const data:TypeCartItems[] = await cartAPI.getCart()
-  dispatch(actions.addToCart(data))
+  dispatch(actions.setCart(data))
 }
 
 export const fetchAccount = ():ThunkType => async (dispatch) => {
@@ -48,7 +48,7 @@ export const fetchMinus = (id:number, count:number):ThunkType => async (dispatch
 
 export const fetchCartPost = (cart:TypeCartItems):ThunkType => async (dispatch) => {
   cartAPI.add(cart).then(() => {
-    dispatch(actions.addToCart([cart]))
+    dispatch(actions.addToCart(cart))
   })
 }
 
